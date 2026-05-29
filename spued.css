@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EF0107;
+    /* padding: 20px; */
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+    font-size: 20px;
+}
+.nav a :hover a{
+    color: #063672;
+}
+.keepers{
+    margin-top: 40px;
+    
+}
+
+.goal{
+    margin-top: 20px;
+    display: flex;
+
+   
+}
+.raya{
+    padding: 20px;
+    box-shadow: 0 5 40px grey;
+}
+.raya img{
+    width: 90%;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+}
+.cad i{
+    color: white;
+}
+.copy{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
